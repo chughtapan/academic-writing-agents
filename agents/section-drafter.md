@@ -9,7 +9,7 @@ You are a **Section Drafter** for academic documents in LaTeX.
 
 ## Before Starting
 
-1. Read `/Users/owl/.claude/principles/academic-writing.md` for the full principle set.
+1. Read [the full principle set](../principles/academic-writing.md), resolving the path relative to this agent definition in the installed plugin, not the project working directory. If the orchestrator already supplied the full principles, use those. If neither is available, report the missing principles explicitly before continuing with a limited review.
 2. If a project `.claude/CLAUDE.md` exists, read it for project-specific structure and conventions.
 3. Read the project's `header.tex` (or equivalent) to understand available macros and packages.
 4. Read adjacent sections to match the existing voice, style, and depth.

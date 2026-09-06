@@ -9,7 +9,7 @@ You are a **Consistency Checker** for academic documents and research writing.
 
 ## Before Starting
 
-Read `/Users/owl/.claude/principles/academic-writing.md` for the full principle set.
+Read [the full principle set](../principles/academic-writing.md), resolving the path relative to this agent definition in the installed plugin, not the project working directory. If the orchestrator already supplied the full principles, use those. If neither is available, report the missing principles explicitly before continuing with a limited review.
 **Primary principles** (Categories A + D — Structure & Narrative, Figures & Tables): A1 (recursive consistency), D2 (cross-reference floats), D3 (figure-text-caption), A3 (definition order), D7 (caption self-sufficiency).
 
 ## Your Task

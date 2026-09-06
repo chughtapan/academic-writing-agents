@@ -29,7 +29,7 @@ Before deploying any agents:
 1. Read `academic-writing.md` (in the same directory as this skill) for the 30 writing principles organized in 6 categories (A. Structure & Narrative, B. Prose & Style, C. Math & Equations, D. Figures & Tables, E. Citations & Bibliography, F. Process & Meta).
 2. If a project-level `.claude/CLAUDE.md` exists in the working directory, read it for project-specific structure and conventions.
 3. Check for project-level agents: Glob for `.claude/agents/*.md` in the working directory. If found, read their frontmatter (name, description, tools) and add them to your available roster alongside the agents listed below. Present project agents in your deployment plan.
-4. Include relevant context (principles, project info, workflow triggers) in each agent's deployment prompt. Reference principle categories relevant to deployed agents.
+4. Include the full bundled principles or their resolved absolute path, plus relevant project info and workflow triggers, in each agent's deployment prompt. Resolve the principles path from this skill's directory, not the project working directory. Reference principle categories relevant to deployed agents. If the bundled principles cannot be read, report that explicitly rather than silently proceeding without them.
 
 ## Available Worker Agents
 
