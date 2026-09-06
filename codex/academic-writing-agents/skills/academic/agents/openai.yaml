@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Writing"
+  short_description: "Review, draft, and polish academic manuscripts"
+  default_prompt: "Use $academic to review my manuscript and prioritize concrete improvements."

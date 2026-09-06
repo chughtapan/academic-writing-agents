@@ -1,6 +1,12 @@
 # Academic Writing Agents
 
-A [Claude Code plugin](https://docs.anthropic.com/en/docs/claude-code/plugins) that brings multi-agent review to academic writing — the same "multiple expert reviewers" model that makes peer review work, built into your writing process.
+A plugin for **Claude Code and Codex** that brings specialist review to academic writing — the same "multiple expert reviewers" model that makes peer review work, built into your writing process.
+
+This fork adds a [Codex version](codex/README.md) with all 12 specialist roles
+and fixes [upstream issue #1](https://github.com/andrehuang/academic-writing-agents/issues/1):
+agents now load bundled principles instead of an author-specific filesystem path.
+The Claude Code workflow below remains available; Codex installation and usage
+are documented separately.
 
 ## Why
 
@@ -117,6 +123,15 @@ Prepare this paper for NeurIPS submission — full review pipeline
 You can also invoke the skill explicitly with `/academic <task>` if auto-triggering doesn't activate.
 
 ## Installation
+
+### Codex
+
+See the [Codex installation guide](codex/README.md). The self-contained skill
+supports `$academic review my introduction` and includes all principles and role
+references. It uses parallel workers when available and permitted, with a
+sequential fallback.
+
+### Claude Code
 
 ```bash
 # Install from the marketplace:
