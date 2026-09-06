@@ -1,0 +1,4 @@
+interface:
+  display_name: "LaTeX Layout Auditor"
+  short_description: "LaTeX Layout Auditor for academic manuscripts"
+  default_prompt: "Use $latex-layout-auditor to help with my academic manuscript."

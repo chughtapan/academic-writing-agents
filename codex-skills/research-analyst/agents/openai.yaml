@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Analyst"
+  short_description: "Research Analyst for academic manuscripts"
+  default_prompt: "Use $research-analyst to help with my academic manuscript."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstormer"
+  short_description: "Brainstormer for academic manuscripts"
+  default_prompt: "Use $brainstormer to help with my academic manuscript."

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Academic Writing Agents"
+  short_description: "Review, research, draft, and polish academic writing"
+  icon_small: "./assets/academic-writing-small.svg"
+  icon_large: "./assets/academic-writing.svg"
+  default_prompt: "Use $academic to coordinate a specialist review of my manuscript."

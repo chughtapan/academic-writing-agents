@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Reviewer"
+  short_description: "Writing Reviewer for academic manuscripts"
+  default_prompt: "Use $writing-reviewer to help with my academic manuscript."

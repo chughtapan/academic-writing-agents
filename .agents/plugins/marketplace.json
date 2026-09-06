@@ -1,0 +1,20 @@
+{
+  "name": "chughtapan-academic-writing-agents",
+  "interface": {
+    "displayName": "Academic Writing Agents"
+  },
+  "plugins": [
+    {
+      "name": "academic-writing-agents",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

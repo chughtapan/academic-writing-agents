@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bibliography Auditor"
+  short_description: "Bibliography Auditor for academic manuscripts"
+  default_prompt: "Use $bibliography-auditor to help with my academic manuscript."

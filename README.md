@@ -2,8 +2,9 @@
 
 A plugin for **Claude Code and Codex** that brings specialist review to academic writing — the same "multiple expert reviewers" model that makes peer review work, built into your writing process.
 
-This fork adds a [Codex version](codex/README.md) with all 12 specialist roles
-and fixes [upstream issue #1](https://github.com/andrehuang/academic-writing-agents/issues/1):
+This fork adds a [Codex plugin](docs/codex-installation.md) with a repository
+marketplace, the academic orchestrator, and 12 directly invokable specialist skills.
+It also fixes [upstream issue #1](https://github.com/andrehuang/academic-writing-agents/issues/1):
 agents now load bundled principles instead of an author-specific filesystem path.
 The Claude Code workflow below remains available; Codex installation and usage
 are documented separately.
@@ -126,10 +127,18 @@ You can also invoke the skill explicitly with `/academic <task>` if auto-trigger
 
 ### Codex
 
-See the [Codex installation guide](codex/README.md). The self-contained skill
-supports `$academic review my introduction` and includes all principles and role
-references. It uses parallel workers when available and permitted, with a
-sequential fallback.
+Install the complete plugin from this fork's Codex marketplace:
+
+```bash
+codex plugin marketplace add chughtapan/academic-writing-agents
+codex plugin add academic-writing-agents@chughtapan-academic-writing-agents
+```
+
+Start a new thread and use `$academic-writing-agents:academic review my introduction`,
+or invoke a specialist such as `$academic-writing-agents:writing-reviewer` directly.
+The plugin includes all 13 skills and shared principles. See the
+[Codex installation guide](docs/codex-installation.md) for local installation,
+the skill roster, and migration from the earlier standalone skill.
 
 ### Claude Code
 

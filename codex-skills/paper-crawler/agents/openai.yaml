@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Crawler"
+  short_description: "Paper Crawler for academic manuscripts"
+  default_prompt: "Use $paper-crawler to help with my academic manuscript."

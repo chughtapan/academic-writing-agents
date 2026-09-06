@@ -15,7 +15,7 @@ user requests academic writing help.
 
 ## Load context
 
-1. Read [the writing principles](references/principles/academic-writing.md).
+1. Read [the writing principles](../../codex-references/principles/academic-writing.md).
    Resolve every bundled reference relative to this `SKILL.md`, regardless of
    the manuscript's working directory. If a required reference is missing,
    report the missing file and the resulting limitation; do not imply it was
@@ -32,23 +32,24 @@ user requests academic writing help.
 
 ## Select specialist roles
 
-Read only the role references relevant to the task. These are instructions for
-Codex or its workers, not registered agent types or separate models.
+Read only the role references relevant to the task. Each role is also available
+as a directly invokable plugin skill (for example, `$writing-reviewer` or
+`$prose-polisher`). These roles do not require separate model configurations.
 
 | Role | Reference | Scope |
 | --- | --- | --- |
-| Consistency checker | [consistency-checker](references/agents/consistency-checker.md) | Terminology, cross-references, structure, figure/text agreement |
-| Logic reviewer | [logic-reviewer](references/agents/logic-reviewer.md) | Argument flow, transitions, narrative gaps |
-| Technical reviewer | [technical-reviewer](references/agents/technical-reviewer.md) | Mathematics, methodology, results, technical citations |
-| Writing reviewer | [writing-reviewer](references/agents/writing-reviewer.md) | Clarity, concision, grammar, tone; reports findings |
-| LaTeX layout auditor | [latex-layout-auditor](references/agents/latex-layout-auditor.md) | Compiled PDF layout, floats, sizing, alignment |
-| Bibliography auditor | [bibliography-auditor](references/agents/bibliography-auditor.md) | Citation metadata, publication status, capitalization, venues |
-| Research analyst | [research-analyst](references/agents/research-analyst.md) | Related work, novelty, positioning, research gaps |
-| Brainstormer | [brainstormer](references/agents/brainstormer.md) | Alternative framings, connections, research directions |
-| Paper crawler | [paper-crawler](references/agents/paper-crawler.md) | Collect, deduplicate, and classify literature |
-| Prose polisher | [prose-polisher](references/agents/prose-polisher.md) | Edit expression while preserving claims and citations |
-| Section drafter | [section-drafter](references/agents/section-drafter.md) | Draft sections, transitions, captions, abstracts |
-| LaTeX figure specialist | [latex-figure-specialist](references/agents/latex-figure-specialist.md) | Create or adjust TikZ/pgfplots figures and placement |
+| Consistency checker | [consistency-checker](../../codex-references/agents/consistency-checker.md) | Terminology, cross-references, structure, figure/text agreement |
+| Logic reviewer | [logic-reviewer](../../codex-references/agents/logic-reviewer.md) | Argument flow, transitions, narrative gaps |
+| Technical reviewer | [technical-reviewer](../../codex-references/agents/technical-reviewer.md) | Mathematics, methodology, results, technical citations |
+| Writing reviewer | [writing-reviewer](../../codex-references/agents/writing-reviewer.md) | Clarity, concision, grammar, tone; reports findings |
+| LaTeX layout auditor | [latex-layout-auditor](../../codex-references/agents/latex-layout-auditor.md) | Compiled PDF layout, floats, sizing, alignment |
+| Bibliography auditor | [bibliography-auditor](../../codex-references/agents/bibliography-auditor.md) | Citation metadata, publication status, capitalization, venues |
+| Research analyst | [research-analyst](../../codex-references/agents/research-analyst.md) | Related work, novelty, positioning, research gaps |
+| Brainstormer | [brainstormer](../../codex-references/agents/brainstormer.md) | Alternative framings, connections, research directions |
+| Paper crawler | [paper-crawler](../../codex-references/agents/paper-crawler.md) | Collect, deduplicate, and classify literature |
+| Prose polisher | [prose-polisher](../../codex-references/agents/prose-polisher.md) | Edit expression while preserving claims and citations |
+| Section drafter | [section-drafter](../../codex-references/agents/section-drafter.md) | Draft sections, transitions, captions, abstracts |
+| LaTeX figure specialist | [latex-figure-specialist](../../codex-references/agents/latex-figure-specialist.md) | Create or adjust TikZ/pgfplots figures and placement |
 
 For a general chapter review, use consistency, logic, technical, writing, and
 bibliography roles; add layout review when a compiled PDF is available. For

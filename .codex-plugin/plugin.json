@@ -1,0 +1,39 @@
+{
+  "name": "academic-writing-agents",
+  "version": "1.1.0",
+  "description": "Academic writing plugin for Codex: an orchestrator, 12 specialist skills, and 30 shared principles.",
+  "author": {
+    "name": "Haiwen Huang; Codex adaptation by chughtapan",
+    "url": "https://github.com/chughtapan/academic-writing-agents"
+  },
+  "repository": "https://github.com/chughtapan/academic-writing-agents",
+  "license": "MIT",
+  "keywords": [
+    "academic-writing",
+    "research",
+    "latex",
+    "codex"
+  ],
+  "skills": "./codex-skills/",
+  "interface": {
+    "displayName": "Academic Writing Agents",
+    "shortDescription": "Review, research, draft, and polish academic writing",
+    "longDescription": "Review, research, draft, and polish academic manuscripts with an orchestrator and 12 individually invokable specialist skills. Includes 30 writing principles, bibliography audits, literature surveys, and LaTeX figure and layout support.",
+    "developerName": "Haiwen Huang; chughtapan",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/chughtapan/academic-writing-agents",
+    "defaultPrompt": [
+      "Use $academic to review my manuscript and prioritize improvements.",
+      "Use $bibliography-auditor to verify the references in my paper.",
+      "Use $prose-polisher to improve clarity while preserving my claims."
+    ],
+    "brandColor": "#244C63",
+    "composerIcon": "./assets/academic-writing-small.svg",
+    "logo": "./assets/academic-writing.svg"
+  }
+}
